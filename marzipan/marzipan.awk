@@ -62,7 +62,7 @@ BEGIN {
     exit(1);
   }
   pre   = substr($0, 1, RSTART-1);
-  mat   = substr($0, RSTART, RLENGTh)
+  mat   = substr($0, RSTART, RLENGTH)
   post  = substr($0, RSTART+RLENGTH)
 
   gsub(/./, " ", mat);
