@@ -24,6 +24,7 @@ rosenpass-ciphers = { workspace = true }
 rosenpass-cipher-traits = { workspace = true }
 rosenpass-to = { workspace = true }
 rosenpass-secret-memory = { workspace = true }
+rosenpass-lenses = { workspace = true }
 anyhow = { workspace = true }
 static_assertions = { workspace = true }
 memoffset = { workspace = true }
@@ -40,6 +41,8 @@ zerocopy = { workspace = true }
 home = { workspace = true }
 derive_builder = {workspace = true}
 rosenpass-wireguard-broker = {workspace = true}
+command-fds = { workspace = true }
+rustix = { workspace = true }
 
 [build-dependencies]
 anyhow = { workspace = true }
